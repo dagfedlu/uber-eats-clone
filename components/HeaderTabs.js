@@ -1,5 +1,5 @@
 import { View, Text, TouchableOpacity } from 'react-native'
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 
 
 export default function HeaderTabs() {
@@ -35,7 +35,7 @@ const HeaderButton = (props) => (
         }}
         onPress={() => props.setActiveTab(props.text)}
     >
-    <Text style={{color: props.activeTab == props.text ? "white" : "black", fontSize:11, fontWeight: "bold"}}>
+    <Text style={{color: props.activeTab == props.text ? "white" : "black", fontSize:9, fontWeight: "900"}}>
         {props.text}
     </Text>
     </TouchableOpacity>
